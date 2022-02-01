@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+}
+.container {
+ display: flex;
+ flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.logo {
+    display: block;
+    margin-left: 15%;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    padding: 10px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    margin-left: 50%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.header-links a {
+    padding: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.bx-main {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.anotherfkinbox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 5px;
+}
+
+.main-para {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 5px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 8%;
+    width: 110px;
+    border: none;
+}
+
+#dini-main {
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.four-action-shots img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: #3882f6 solid 4px;
+    margin: 25px;
+    margin-bottom: 5%;
+}
+
+.bx-quote {
+    background-color: #e5e7eb;;
+}
+
+.bx-quote p {
+    margin: 50px 50px 10px 50px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+h3 {
+    text-align: right;
+    margin-right: 500px;
+    font-size: 26px;
+}
+
+.bx-action {
+    display: flex;
+}
+
+.call {
+    background-color: #3882f6;
+    color: white;
+    align-items: center;
+    border-radius: 5%;
+    margin: 50px;
+    margin-left: 5%;
+    padding: 10px;
+    padding-right: 300px;
+    display: flex;
+}
+
+.call button {
+    height: 100px;
+    width: 750px;
+    font-size: 50px;
+    border: solid white 1px;
+    font-weight: 600;
+    align-items: center;
+    margin-left: 200px;
+}
+
+h4 {
+    font-weight: 900;
+    margin-left: 25px;
+    margin: 5%;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
